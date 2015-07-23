@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">Логін</string>
+    <string name="password">Пароль</string>
+    <string name="action_sign_in">Авторизація</string>
+    <string name="enter_login">Введіть логін</string>
+    <string name="enter_password">Введіть пароль</string>
+    <string name="enter_login_and_password">Введіть логін та пароль</string>
+    <string name="incorrect_login_or_password">Невірний логін або пароль</string>
+    <string name="checking">Перевірка. Почекайте будь-ласка...</string>
+
+
+</resources>

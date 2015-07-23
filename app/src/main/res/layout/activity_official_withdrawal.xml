@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <TextView
+            android:text="@string/menuOfficialWithdrawal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/tv_vertical_margin"
+            android:paddingBottom="@dimen/tv_vertical_margin"/>
+
+    <Button
+            android:id="@+id/OfficialWithdrawal"
+            android:text="@string/official_withdrawal"
+            android:onClick="onClickOfficialWithdrawal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/officialWithdrawalToCounterparty"
+            android:text="@string/withdrawal_to_counterparty"
+            android:onClick="onClickOfficialWithdrawalToCounterparty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/officialWithdrawalToAnotherCashier"
+            android:text="@string/withdrawal_to_another_cashier"
+            android:onClick="onClickOfficialWithdrawalToAnotherCashier"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

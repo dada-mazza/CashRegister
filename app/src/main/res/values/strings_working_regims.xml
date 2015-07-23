@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menuWorkingRegimes">Режим роботи:</string>
+    <string name="registration">Реєстарція</string>
+    <string name="report">Звітування</string>
+    <string name="settingsRRO">Налаштування PPО</string>
+    <string name="shift_more_24_hours">Зміна триває більше 24 годин! Закрийте зміну!</string>
+</resources>

@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:text="@string/train_or_route"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/tv_vertical_margin"
+                android:paddingBottom="@dimen/tv_vertical_margin"/>
+
+        <Spinner
+                android:id="@+id/trainOrRoute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </Spinner>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_of_line"
+                android:maxHeight="1dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/layoutSelectFromListOfTrain"
+            android:onClick="onClickSelectFromListOfTrain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:text="@string/list_of_train"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/tv_vertical_margin"
+                android:paddingBottom="@dimen/tv_vertical_margin"/>
+
+        <TextView
+                android:id="@+id/selectFromListOfTrain"
+                android:hint="@string/select_from_list_of_train"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/tv_vertical_margin"
+                android:paddingBottom="@dimen/tv_vertical_margin"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_of_line"
+                android:maxHeight="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layoutSelectFromListOfRoute"
+            android:onClick="onClickSelectFromListOfRoute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:text="@string/list_of_routes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/tv_vertical_margin"
+                android:paddingBottom="@dimen/tv_vertical_margin"/>
+
+        <TextView
+                android:id="@+id/selectFromListOfRoute"
+                android:hint="@string/select_from_list_of_route"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/tv_vertical_margin"
+                android:paddingBottom="@dimen/tv_vertical_margin"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_of_line"
+                android:maxHeight="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/layoutSelectFromListOfStation"
+            android:onClick="onClickSelectFromListOfStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:text="@string/station_of_transfer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/tv_vertical_margin"
+                android:paddingBottom="@dimen/tv_vertical_margin"/>
+
+        <TextView
+                android:id="@+id/selectFromListOfStation"
+                android:hint="@string/select_from_list_of_station"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/tv_vertical_margin"
+                android:paddingBottom="@dimen/tv_vertical_margin"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_of_line"
+                android:maxHeight="1dp"/>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/next"
+            android:onClick="onClickNext"
+            android:text="@string/next"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+</LinearLayout>
+

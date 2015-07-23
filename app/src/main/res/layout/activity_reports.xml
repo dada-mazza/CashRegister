@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+            android:id="@+id/scrollReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <Button
+                    android:id="@+id/controlTape"
+                    android:text="@string/control_tape"
+                    android:onClick="onClickControlTape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportOfKinds"
+                    android:text="@string/report_of_kinds"
+                    android:onClick="onClickReportOfKinds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportAboutSpoiled"
+                    android:text="@string/report_about_spoiled"
+                    android:onClick="onClickReportAboutSpoiled"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportCashier"
+                    android:text="@string/report_cashier"
+                    android:onClick="onClickReportCashier"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportAuditor"
+                    android:text="@string/report_auditor"
+                    android:onClick="onClickReportAuditor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportOfGoodsAndServices"
+                    android:text="@string/report_of_goods_and_services"
+                    android:onClick="onClickReportOfGoodsAndServices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportX"
+                    android:text="@string/report_x"
+                    android:onClick="onClickReportX"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportY"
+                    android:text="@string/report_z"
+                    android:onClick="onClickReportZ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportDatesPeriodicReduced"
+                    android:text="@string/reduced_periodic_report_by_dates"
+                    android:onClick="onClickReportDatesPeriodicReduced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportNumbersPeriodicReduced"
+                    android:text="@string/reduced_periodic_report_by_numbers"
+                    android:onClick="onClickReportNumbersPeriodicReduced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportDatesPeriodicComplete"
+                    android:text="@string/complete_periodic_report_by_dates"
+                    android:onClick="onClickReportDatesPeriodicComplete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/reportNumbersPeriodicComplete"
+                    android:text="@string/complete_periodic_report_by_numbers"
+                    android:onClick="onClickReportNumbersPeriodicComplete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

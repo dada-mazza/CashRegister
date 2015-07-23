@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menuReports">Звітування:</string>
+    <string name="control_tape">Контрольна стрічка</string>
+    <string name="report_of_kinds">Звіт по видах</string>
+    <string name="report_about_spoiled">Звіт по зіпсованим</string>
+    <string name="report_cashier">Звіт касира</string>
+    <string name="report_auditor">Звіт ревізора</string>
+    <string name="report_of_goods_and_services">Звіт по реалізованим товарам та послугам</string>
+    <string name="report_x">X-звіт</string>
+    <string name="report_z">Z-звіт</string>
+    <string name="reduced_periodic_report_by_dates">Скорочений періодичний звіт по датам</string>
+    <string name="reduced_periodic_report_by_numbers">Скорочений періодичний звіт по номерам</string>
+    <string name="complete_periodic_report_by_dates">Повний періодичний звіт по датам</string>
+    <string name="complete_periodic_report_by_numbers">Повний періодичний звіт по номерам</string>
+
+    <string name="menuReportsByDate">Звіт по датам:</string>
+    <string name="enter_start_date">Введіть початкову дату</string>
+    <string name="start_date">Початкова дата:</string>
+    <string name="enter_final_date">Введіть кінцеву дату</string>
+    <string name="final_date">Кінцева дата:</string>
+    <string name="discrepancy_dates">Невідповідність дат. Кінцева дата знаходиться перед початковою датою! Змініть помилкову дату!</string>
+
+    <string name="menuReportsByNumbers">Звіт по номерам:</string>
+    <string name="enter_start_numbers">Введіть початковий номер</string>
+    <string name="start_numbers">Початковий номер:</string>
+    <string name="enter_final_numbers">Введіть кінцевий номер</string>
+    <string name="final_numbers">Кінцевий номер:</string>
+    <string name="discrepancy_numbers">Невідповідність номерів. Кінцева номер знаходиться перед початковим! Змініть помилковий номер!</string>
+    <string name="start_fiscal_report">Початковий фіскальний звіт</string>
+    <string name="start_cashier_report">Початковий звіт касира</string>
+    <string name="print_control_type">Роздрукуйте контрольну стрічку</string>
+    <string name="close_casier_shift">Закрийте зміну касира!</string>
+
+
+</resources>

@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <Button
+                    android:id="@+id/buttonTicket"
+                    android:text="@string/ticket"
+                    android:onClick="onClickTicket"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/buttonBaggageCheck"
+                    android:text="@string/baggage_check"
+                    android:onClick="onClickBaggageCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/buttonSubscription"
+                    android:text="@string/subscription"
+                    android:onClick="onClickSubscription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/buttonProductsOrServices"
+                    android:text="@string/products_and_services"
+                    android:onClick="onClickProductsOrServices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/buttonETicket"
+                    android:text="@string/e_ticket"
+                    android:onClick="onClickETicket"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/buttonTariffFine"
+                    android:text="@string/tariff_fine"
+                    android:onClick="onClickTariffFine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/buttonAdministrativeFine"
+                    android:text="@string/administrative_fine"
+                    android:onClick="onClickAdministrativeFine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/buttonReducingTravelCard"
+                    android:text="@string/reducing_travel_card"
+                    android:onClick="onClickReducingTravelCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:id="@+id/buttonAccountingForMissingPassengers"
+                    android:text="@string/accounting_for_missing_passengers"
+                    android:onClick="onClickAccountingForMissingPassengers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

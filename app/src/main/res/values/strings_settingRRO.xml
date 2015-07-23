@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menuSettingRRO">Налаштування РРО:</string>
+    <string name="contrast_setting">Контрастність</string>
+    <string name="display_setting">Налаштування екрана</string>
+    <string name="mode_rro">Режим роботи РРО</string>
+    <string name="mode_ndi">Режим НДІ</string>
+    <string name="mode_ndi_on">Режим НДІ використовується</string>
+    <string name="mode_ndi_off">Режим НДІ не використовується</string>
+    <string name="mode_departure_date">Режим дати відправлення</string>
+    <string name="mode_departure_date_on">Відображати дату відправлення</string>
+    <string name="mode_departure_date_off">Не відображати дату відправлення</string>
+    <string name="print_summary_articles">Друк зведених артикулів у X та Z звітах</string>
+    <string name="smaller_font_control_tape">Зменшений шрифт контрольної стрічки</string>
+    <string name="font_of_reports">Шрифт звітів</string>
+    <string name="keyboard_settings">Параметри клавіатури</string>
+    <string name="date_and_time">Зміна дати та часу</string>
+    <string name="view_fiscal_data">Перегляд фіскальних даних</string>
+    <string name="serial_number">Заводський №</string>
+    <string name="fiscal_number">Фіскальний №</string>
+    <string name="tax_number">Податковий №</string>
+    <string name="change_in_tax_rates">Зміна податкових ставок</string>
+    <string name="view_ndi">Перегляд НДІ</string>
+    <string name="view_ndi_articles">Артикули</string>
+    <string name="view_ndi_train">Рейси</string>
+    <string name="view_ndi_routes">Маршрути</string>
+    <string name="view_ndi_privileges">Пільги</string>
+    <string name="view_ndi_subscriptions">Абонементи</string>
+    <string name="view_ndi_rules">Правила розрахунку вартості</string>
+    <string name="view_ndi_users">Користувачі</string>
+    <string name="print_uidch">Друк УІДЧ</string>
+    <string name="cut_tape_after_print">Відрізати стрічку автоматично після друку</string>
+    <string name="mode_sale">Режим продажу</string>
+    <string name="rate_rs_232">Швидкість RS-232 </string>
+    <string name="permit_overflow_control_tape">Дозвіл переповнення контрольної стрічки</string>
+    <string name="accumulation_of_data_in_the_X_reports">Накопичення даних у Х-звітах</string>
+    <string name="choice_anchor_point">Вибір пункту прив\'язки</string>
+    <string name="permit_making_delivery">Дозвіл внесення/видачі</string>
+    <string name="permit_making_delivery_on">Внесення/видача дозволена</string>
+    <string name="permit_making_delivery_off">Внесення/видача не дозволена</string>
+    <string name="permit_cancellation">Дозвіл погашення</string>
+    <string name="permit_cancellation_on">Погашення дозволено</string>
+    <string name="permit_cancellation_off">Погашення не дозволено</string>
+    <string name="permit_return">Дозвіл повернення</string>
+    <string name="permit_return_on">Повернення дозволено</string>
+    <string name="permit_return_off">Повернення не дозволено</string>
+
+    <string name="contrast_setting_regimes_high">High</string>
+    <string name="contrast_setting_regimes_normal">Normal</string>
+    <string name="contrast_setting_regimes_low">Low</string>
+
+    <string name="mode_rro_regimes_autonomous">Автономний</string>
+    <string name="mode_rro_regimes_stationary">Стаціонарний</string>
+
+    <string name="font_of_reports_regimes_small">Малий</string>
+    <string name="font_of_reports_regimes_middle">Середній</string>
+    <string name="font_of_reports_regimes_big">Великий</string>
+
+
+    <string name="keyboard_settings_regimes_auto_repeat">Автоповтор</string>
+    <string name="keyboard_settings_regimes_repetition_period">Період повтору</string>
+    <string name="keyboard_settings_regimes_time_replay">Час до повтору</string>
+    <string name="keyboard_settings_regimes_time_drebezha">Час дребезга</string>
+
+
+    <string name="change_in_tax_rates_regimes_pdv_1">ПДВ А = +/- XX%</string>
+    <string name="change_in_tax_rates_regimes_pdv_2">ПДВ Б = +/- XX%</string>
+    <string name="change_in_tax_rates_regimes_pdv_3">ПДВ В = +/- XX%</string>
+    <string name="change_in_tax_rates_regimes_pdv_4">ПДВ Г = +/- XX%</string>
+    <string name="change_in_tax_rates_regimes_pdv_5">ПДВ Д = +/- XX%</string>
+
+
+    <string name="mode_sale_regimes_without_seats">Без місць</string>
+    <string name="mode_sale_regimes_with_seats">З місцями</string>
+    <string name="mode_sale_regimes_auto">Авто</string>
+    <string name="mode_sale_regimes_products_and_services">Товари/Послуги</string>
+
+
+</resources>

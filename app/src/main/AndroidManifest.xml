@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ua.cashregister"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+            android:minSdkVersion="15"
+            android:targetSdkVersion="21"/>
+
+    <!-- *************************************************************************************** -->
+    <!-- Main -->
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/logo_menu"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name="ua.cashregister.menu.Main"
+                android:label="@string/app_name">
+
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+
+        </activity>
+        <activity
+                android:name="ua.cashregister.menu.WorkingRegimes"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.menu.Login"
+                android:label="@string/app_name">
+        </activity>
+        <!-- *************************************************************************************** -->
+
+        <!-- Звітування -->
+        <activity
+                android:name="ua.cashregister.reports.Reports"
+                android:label="@string/report">
+        </activity>
+        <activity
+                android:name="ua.cashregister.reports.ReportsByDate"
+                android:label="@string/report">
+        </activity>
+        <activity
+                android:name="ua.cashregister.reports.ReportsByNumbers"
+                android:label="@string/report">
+        </activity>
+        <!-- *************************************************************************************** -->
+
+        <!-- Налаштування РРО -->
+        <activity
+                android:name="ua.cashregister.setting.SettingRROActivity"
+                android:label="@string/settingsRRO">
+        </activity>
+
+        <!-- *************************************************************************************** -->
+
+        <!-- Print -->
+        <activity
+                android:name="ua.cashregister.print.PrintActivity"
+                android:label="@string/report">
+        </activity>
+        <!-- *************************************************************************************** -->
+
+        <!-- List -->
+        <activity
+                android:name="ua.cashregister.list.ListActivity"
+                android:label="@string/app_name">
+        </activity>
+        <!-- *************************************************************************************** -->
+
+        <!-- Каса -->
+        <activity
+                android:name="ua.cashregister.register.menu.CashRegister"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.menu.DateOfDeparture"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.menu.TrainOrRoute"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.menu.Route"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.menu.Train"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.menu.ActionOfReceipt"
+                android:label="@string/app_name">
+
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.repay.Repay"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.repay.Good"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.TypeOfReceipt"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.menu.Blank"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.ProductsAndServices"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.introduction.Introduction"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.introduction.IntroductionAmount"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.introduction.IntroductionFromCashier"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.withdrawal.Withdrawal"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.withdrawal.WithdrawalAmount"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.withdrawal.WithdrawalToCashier"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.withdrawal.WithdrawalToCounterperty"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.menu.TypeOfPayment"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.Ticket"
+                android:label="@string/app_name">
+
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.AdministrativeFine"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.ReducingTravelCard"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.AccountingForMissingPassengers"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.TicketTransfer"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.TicketSeat"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.AdditionalCharge"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.Subscription"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name="ua.cashregister.register.cashier.action.receipt.TariffFine"
+                android:label="@string/app_name">
+        </activity>
+        <!-- *************************************************************************************** -->
+
+    </application>
+
+</manifest>

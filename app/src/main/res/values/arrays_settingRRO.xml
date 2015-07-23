@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contrast_setting_regimes">
+        <item>High</item>
+        <item>Normal</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="mode_rro_regimes">
+        <item>Автономний</item>
+        <item>Стаціонарний</item>
+    </string-array>
+
+    <string-array name="font_of_reports_regimes">
+        <item>Малий</item>
+        <item>Середній</item>
+        <item>Великий</item>
+    </string-array>
+
+    <string-array name="keyboard_settings_regimes">
+        <item>Автоповтор</item>
+        <item>Період повтору</item>
+        <item>Час до повтору</item>
+        <item>Час дребезга</item>
+    </string-array>
+
+    <string-array name="change_in_tax_rates_regimes">
+        <item>ПДВ А = +/- XX%</item>
+        <item>ПДВ Б = +/- XX%</item>
+        <item>ПДВ В = +/- XX%</item>
+        <item>ПДВ Г = +/- XX%</item>
+        <item>ПДВ Д = +/- XX%</item>
+    </string-array>
+
+    <string-array name="mode_sale_regimes">
+        <item>@string/mode_sale_regimes_without_seats</item>
+        <item>@string/mode_sale_regimes_with_seats</item>
+        <item>@string/mode_sale_regimes_auto</item>
+        <item>@string/mode_sale_regimes_products_and_services</item>
+    </string-array>
+
+    <string-array name="rate_rs_232_regimes">
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>76800</item>
+        <item>115200</item>
+    </string-array>
+
+
+</resources>

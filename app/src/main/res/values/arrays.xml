@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_list_of_trains">
+        <item>584  Київ Маріуполь</item>
+        <item>49   Київ Трускавець</item>
+        <item>81   Київ Ужгород</item>
+        <item>726  Київ Харків</item>
+        <item>108  Київ Астана</item>
+        <item>795  Київ Вінниця	</item>
+        <item>49   Київ Будапешт</item>
+        <item>13   Київ Ужгород</item>
+        <item>732  Київ Дніпропетровськ</item>
+        <item>148  Київ Одеса</item>
+        <item>782  Київ Полтава</item>
+        <item>67   Київ Варшава</item>
+        <item>141  Київ Львів</item>
+        <item>86   Київ Мінськ</item>
+        <item>749  Київ Тернопіль</item>
+    </string-array>
+
+    <string-array name="array_list_of_routes">
+        <item>Маріуполь	</item>
+        <item>Трускавець</item>
+        <item>Ужгород</item>
+        <item>Харків</item>
+        <item>Астана</item>
+        <item>Вінниця	</item>
+        <item>Будапешт	</item>
+        <item>Ужгород</item>
+        <item>Дніпропетровськ</item>
+        <item>Одеса</item>
+        <item>Полтава</item>
+        <item>Варшава</item>
+        <item>Львів</item>
+        <item>Мінськ</item>
+        <item>Тернопіль</item>
+    </string-array>
+
+    <string-array name="array_list_of_wagons">
+        <item>Вагон 1</item>
+        <item>Вагон 2</item>
+        <item>Вагон 3</item>
+        <item>Вагон 4</item>
+        <item>Вагон 5</item>
+        <item>Вагон 6</item>
+        <item>Вагон 7</item>
+        <item>Вагон 8</item>
+        <item>Вагон 9</item>
+    </string-array>
+
+    <string-array name="array_list_of_types_class">
+        <item>Економ</item>
+        <item>Бізнес</item>
+
+    </string-array>
+
+    <string-array name="array_list_of_carriers">
+        <item>Перевізник 1</item>
+        <item>Перевізник 2</item>
+        <item>Перевізник 3</item>
+        <item>Перевізник 4</item>
+        <item>Перевізник 5</item>
+        <item>Перевізник 6</item>
+        <item>Перевізник 7</item>
+        <item>Перевізник 8</item>
+        <item>Перевізник 9</item>
+
+    </string-array>
+    <string-array name="array_list_of_unit_of_measurement">
+        <item>шт.</item>
+        <item>уп.</item>
+        <item>кг.</item>
+    </string-array>
+
+    <string-array name="array_list_of_goods">
+        <item>Товар 1</item>
+        <item>Товар 2</item>
+        <item>Товар 3</item>
+        <item>Послуга 1</item>
+        <item>Послуга 2</item>
+        <item>Послуга 3</item>
+    </string-array>
+
+    <string-array name="list_of_train_or_route">
+        <item>@string/train</item>
+        <item>@string/route</item>
+    </string-array>
+
+    <string-array name="array_list_of_station">
+        <item>Київ</item>
+        <item>Фастів</item>
+        <item>Миронівка</item>
+        <item>Тернопіль</item>
+        <item>Ірпінь</item>
+        <item>Ольшаниця</item>
+    </string-array>
+
+    <string-array name="array_list_of_benefit">
+        <item>Повний</item>
+        <item>Пільговий</item>
+        <item>Дитячий</item>
+        <item>Безкоштовний</item>
+        <item>Службовий</item>
+    </string-array>
+
+    <string-array name="list_of_types_of_payment">
+        <item>@string/cash</item>
+        <item>@string/cashless</item>
+        <item>@string/card</item>
+        <item>@string/e_ticket</item>
+    </string-array>
+
+    <string-array name="array_list_of_seat">
+        <item>Місце 10</item>
+        <item>Місце 12</item>
+        <item>Місце 21</item>
+        <item>Місце 41</item>
+    </string-array>
+
+    <string-array name="array_list_of_article_of_administrative_fine">
+        <item>Стаття 110</item>
+        <item>Стаття 112</item>
+        <item>Стаття 211</item>
+        <item>Стаття 411</item>
+    </string-array>
+
+    <string-array name="array_list_of_article_of_tariff_fine">
+        <item>Стаття 34</item>
+        <item>Стаття 67</item>
+        <item>Стаття 54</item>
+        <item>Стаття 90</item>
+    </string-array>
+
+    <string-array name="list_of_types_of_subscription">
+        <item>Повний періодичний</item>
+        <item>Вихідного дня</item>
+        <item>Кількість поїздок</item>
+    </string-array>
+
+    <string-array name="list_of_types_of_blank">
+        <item>@string/paper</item>
+        <item>@string/e_card</item>
+
+    </string-array>
+
+
+</resources>

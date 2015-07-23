@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/contrast_setting_regimes_normal"
+        android:dialogTitle="@string/contrast_setting"
+        android:entries="@array/contrast_setting_regimes"
+        android:entryValues="@array/contrast_setting_regimes"
+        android:key="menuSettingRRO_contrast"
+        android:title="@string/contrast_setting" />
+
+    <PreferenceScreen android:title="@string/display_setting">
+        <intent android:action="android.settings.DISPLAY_SETTINGS" />
+    </PreferenceScreen>
+
+    <ListPreference
+        android:defaultValue="@string/mode_rro_regimes_autonomous"
+        android:dialogTitle="@string/mode_rro"
+        android:entries="@array/mode_rro_regimes"
+        android:entryValues="@array/mode_rro_regimes"
+        android:key="menuSettingRRO_mode_rro"
+        android:title="@string/mode_rro" />
+
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="menuSettingRRO_mode_ndi"
+        android:title="@string/mode_ndi" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="menuSettingRRO_mode_departure_date"
+        android:summaryOff="@string/mode_departure_date_off"
+        android:summaryOn="@string/mode_departure_date_on"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/mode_departure_date" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="menuSettingRRO_print_summary_articles"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/print_summary_articles" />
+
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="menuSettingRRO_smaller_font_control_tape"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/smaller_font_control_tape" />
+
+    <ListPreference
+        android:defaultValue="@string/font_of_reports_regimes_middle"
+        android:dialogTitle="@string/font_of_reports"
+        android:entries="@array/font_of_reports_regimes"
+        android:entryValues="@array/font_of_reports_regimes"
+        android:key="menuSettingRRO_font_of_reports"
+        android:title="@string/font_of_reports" />
+
+    <ListPreference
+        android:defaultValue="@string/keyboard_settings_regimes_auto_repeat"
+        android:dialogTitle="@string/keyboard_settings"
+        android:entries="@array/keyboard_settings_regimes"
+        android:entryValues="@array/keyboard_settings_regimes"
+        android:key="menuSettingRRO_keyboard_settings"
+        android:title="@string/keyboard_settings" />
+
+    <PreferenceScreen android:title="@string/date_and_time">
+        <intent android:action="android.settings.DATE_SETTINGS" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="menuSettingRRO_view_fiscal_data"
+        android:title="@string/view_fiscal_data">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="menuSettingRRO_view_fiscal_data_serial_number"
+            android:title="@string/serial_number" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="menuSettingRRO_view_fiscal_data_fiscal_number"
+            android:title="@string/fiscal_number" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="menuSettingRRO_view_fiscal_data_tax_number"
+            android:title="@string/tax_number" />
+    </PreferenceScreen>
+
+    <ListPreference
+        android:defaultValue="@string/change_in_tax_rates_regimes_pdv_1"
+        android:dialogTitle="@string/change_in_tax_rates"
+        android:entries="@array/change_in_tax_rates_regimes"
+        android:entryValues="@array/change_in_tax_rates_regimes"
+        android:key="menuSettingRRO_change_in_tax_rates"
+        android:title="@string/change_in_tax_rates" />
+
+    <PreferenceScreen android:title="@string/view_ndi">
+
+        <!-- Прописати методику вичитки списків -->
+
+        <PreferenceScreen
+            android:summary="не реалізовано"
+            android:title="@string/view_ndi_articles">
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:summary="не реалізовано"
+            android:title="@string/view_ndi_train">
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:summary="не реалізовано"
+            android:title="@string/view_ndi_routes">
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:summary="не реалізовано"
+            android:title="@string/view_ndi_privileges">
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:summary="не реалізовано"
+            android:title="@string/view_ndi_subscriptions">
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:summary="не реалізовано"
+            android:title="@string/view_ndi_rules">
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:summary="не реалізовано"
+            android:title="@string/view_ndi_users">
+
+        </PreferenceScreen>
+
+    </PreferenceScreen>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="menuSettingRRO_print_uidch"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/print_uidch" />
+
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="menuSettingRRO_cut_ribbon_after_print"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/cut_tape_after_print" />
+
+
+    <ListPreference
+        android:id = "@+id/menuSettingRRO_mode_sale"
+        android:defaultValue="@string/mode_sale_regimes_with_seats"
+        android:dialogTitle="@string/mode_sale"
+        android:entries="@array/mode_sale_regimes"
+        android:entryValues="@array/mode_sale_regimes"
+        android:key="menuSettingRRO_mode_sale"
+        android:title="@string/mode_sale" />
+
+    <ListPreference
+        android:defaultValue="4800"
+        android:dialogTitle="@string/rate_rs_232"
+        android:entries="@array/rate_rs_232_regimes"
+        android:entryValues="@array/rate_rs_232_regimes"
+        android:key="menuSettingRRO_rate_rs_232"
+        android:title="@string/rate_rs_232" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="menuSettingRRO_permit_overflow_control_tape"
+        android:summaryOff="@string/not_permit"
+        android:summaryOn="@string/permit"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/permit_overflow_control_tape" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="menuSettingRRO_accumulation_of_data_in_the_X_reports"
+        android:summaryOff="@string/not_permit"
+        android:summaryOn="@string/permit"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/accumulation_of_data_in_the_X_reports" />
+
+    <PreferenceScreen
+        android:summary="не реалізовано"
+        android:title="@string/choice_anchor_point">
+
+        <!-- Прописати вичитку пунктів прив'язки -->
+
+    </PreferenceScreen>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="menuSettingRRO_making_delivery"
+        android:summaryOff="@string/not_permit"
+        android:summaryOn="@string/permit"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/permit_making_delivery" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="menuSettingRRO_permit_cancellation"
+        android:summaryOff="@string/not_permit"
+        android:summaryOn="@string/permit"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/permit_cancellation" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="menuSettingRRO_permit_return"
+        android:summaryOff="@string/not_permit"
+        android:summaryOn="@string/permit"
+        android:switchTextOff="@string/no"
+        android:switchTextOn="@string/yes"
+        android:title="@string/permit_return" />
+
+</PreferenceScreen>
